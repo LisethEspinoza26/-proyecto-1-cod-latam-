@@ -2,8 +2,7 @@
 
 /* Fonts */
 /* Importar aquí la font */
-
-
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
 *  cuyos valores asigna por defecto el navegador.
@@ -35,6 +34,98 @@ a {
 main {
     max-width: 1200px;
     margin: auto;
+}
+body {
+    font-family:'Lato', sans-serif;
+    background-color:#fbfbfb;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #0f0f0f;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 3px 10px -5px #5f5f5f;
+    background-color: #fbfbfb;
+}
+
+.logo {
+    width: 120px;
+    margin-left: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#inicio {
+    padding-top: 120px;
+}
+
+ul.menu {
+    display: flex;
+    font-size: 20px;
+}
+
+li.item-menu a {
+    padding: 16px;
+    display: inline-block;
+}
+
+li.item-menu:hover {
+    background: rgba(175, 89, 158, 0.3);
+    transition: background-color 0.4s;
+}
+
+img.presentacion {
+    width: 400px;
+    border-radius: 50%;
+}
+
+section {
+    min-height: 100vh;
+}
+
+p {
+    text-align: center;
+   /*  falta parrafo */
+}
+
+a.boton {
+    background-color: #af599e;
+    color:#fbfbfb ;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 12px 20px;
+    display: inline-block;
+    align-items: center;
+}
+
+footer {
+    background-color:#af599e;
+    height: 90px;
+    align-content: center;
+    color: #fbfbfb;
 }
 
 /* Recomendaciones! 
