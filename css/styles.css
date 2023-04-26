@@ -34,7 +34,9 @@ a {
 main {
     max-width: 1200px;
     margin: auto;
+    margin: 15px;
 }
+
 body {
     font-family:'Lato', sans-serif;
     background-color:#fbfbfb;
@@ -45,6 +47,8 @@ body {
 
 h1{
     font-size: 36px;
+    padding-top: 30px;
+    padding-bottom: 0%;
 }
 
 h2 {
@@ -70,21 +74,33 @@ header {
 }
 
 .logo {
-    width: 120px;
-    margin-left: 15px;
+    width: 100px;
+    margin-left: 10px;
+    display: flex;
 }
 
 img {
     max-width: 100%;
 }
 
-#inicio {
-    padding-top: 120px;
+.menu {
+    display: flex;
+    justify-content: space-between
 }
 
-ul.menu {
-    display: flex;
+#inicio, #contacto {
+    padding-top: 100px;
+}
+
+#iconos {
     font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 li.item-menu a {
@@ -100,6 +116,8 @@ li.item-menu:hover {
 img.presentacion {
     width: 400px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
 }
 
 section {
@@ -108,7 +126,7 @@ section {
 
 p {
     text-align: center;
-   /*  falta parrafo */
+    margin: 20px 0;
 }
 
 a.boton {
@@ -118,13 +136,20 @@ a.boton {
     border-radius: 50px;
     padding: 12px 20px;
     display: inline-block;
-    align-items: center;
+}
+
+article.color {
+    background-color: rgba(175, 89, 158, 0.3);
+    border-radius: 10px;
+    padding: 20px;
 }
 
 footer {
     background-color:#af599e;
     height: 90px;
-    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fbfbfb;
 }
 
