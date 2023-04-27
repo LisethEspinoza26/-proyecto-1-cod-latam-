@@ -45,7 +45,7 @@ body {
     color: #0f0f0f;
 }
 
-h1{
+h1 {
     font-size: 36px;
     padding-top: 30px;
     padding-bottom: 0%;
@@ -76,31 +76,40 @@ header {
 .logo {
     width: 100px;
     margin-left: 10px;
-    display: flex;
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .menu {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
-#inicio, #contacto {
+#inicio {
     padding-top: 100px;
 }
 
-#iconos {
+#contacto {
+    padding-top: 250px;
+}
+
+#iconos ul {
     font-size: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 70px;
-    margin-right: 20px;
-    margin-left: 20px;
+}
+
+.alinear-iconos {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 li.item-menu a {
@@ -114,10 +123,11 @@ li.item-menu:hover {
 }
 
 img.presentacion {
-    width: 400px;
+    max-width: 400px;
     border-radius: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 section {
@@ -127,6 +137,11 @@ section {
 p {
     text-align: center;
     margin: 20px 0;
+}
+
+#boton {
+    display: flex;
+   justify-content: center;
 }
 
 a.boton {
@@ -147,6 +162,7 @@ article.color {
 footer {
     background-color:#af599e;
     height: 90px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
